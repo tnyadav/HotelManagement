@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/thm_bg_view_sec"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/top_bar"
+        android:orientation="horizontal" >
+
+        
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="Company Presentation"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@android:color/white" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="30dp"
+        android:background="@android:color/transparent"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/buttonAny"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/thm_bg_list_itm_sec"
+            android:drawableRight="@drawable/rightarrow"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Photographs"
+            android:textColor="@color/white" />
+
+        <View
+            android:id="@+id/view1"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp" 
+            android:background="@drawable/shadow"/>
+
+        <Button
+            android:id="@+id/buttonNearMe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            
+            android:background="@drawable/thm_bg_list_itm_sec"
+            android:drawableRight="@drawable/rightarrow"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="History"
+            android:textColor="@color/white" />
+<View
+            android:id="@+id/view1"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp" 
+            android:background="@drawable/shadow"/>
+        
+        <Button
+            android:id="@+id/buttonNearMe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+           
+            android:background="@drawable/thm_bg_list_itm_sec"
+            android:drawableRight="@drawable/rightarrow"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Video Presentation"
+            android:textColor="@color/white" />
+<View
+            android:id="@+id/view1"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp" 
+            android:background="@drawable/shadow"/>
+        
+        <Button
+            android:id="@+id/buttonNearMe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+           
+            android:background="@drawable/thm_bg_list_itm_sec"
+            android:drawableRight="@drawable/rightarrow"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="More"
+            android:textColor="@color/white" />
+        <View
+            android:id="@+id/view1"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp" 
+            android:background="@drawable/shadow"/>
+        
+    </LinearLayout>
+
+</LinearLayout>

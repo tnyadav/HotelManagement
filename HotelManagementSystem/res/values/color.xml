@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="blue_butterfly">#5E9DAF</color>
+    <color name="gray_battleship">#848482</color>
+    <color name="white">#ffffff</color>
+    <color name="gray">#F1F1F1</color>
+    <color name="platinum">#E5E4E2</color>
+    <color name="selectorColor">#00CCED</color>
+    <color name="text_color">#006FB9</color>
+    <color name="selected_tab_color">#F57B20</color>
+
+</resources>

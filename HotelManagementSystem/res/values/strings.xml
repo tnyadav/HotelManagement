@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HotelManagementSystem</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+     <string name="map_key">AIzaSyD03Oa822Gpmu30Po_39yydjMIrUBtiw-Y</string>
+
+</resources>
